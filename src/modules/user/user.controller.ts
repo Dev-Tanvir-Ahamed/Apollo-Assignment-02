@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
-import { userValidationSchema } from './student.validation';
-import { userServices } from './students.services';
+import { userServices } from './user.services';
+import { userValidationSchema } from './user.validation';
 
 const createUser = async (req: Request, res: Response) => {
   const userData = req.body;

@@ -1,6 +1,6 @@
 import cors from 'cors';
 import express, { Application, Request, Response } from 'express';
-import { userRoute } from './modules/user/students.routes';
+import { userRoute } from './modules/user/user.routes';
 const app: Application = express();
 // const port = 3000;
 app.use(express.json());
