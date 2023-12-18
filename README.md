@@ -38,7 +38,7 @@ Make sure you have the following installed on your machine:
 4. **Run the Application:**
 
     ```bash
-    npm start
+    npm run start:dev
     ```
 
     Your Node.js application should now be running at `http://localhost:3000`.
